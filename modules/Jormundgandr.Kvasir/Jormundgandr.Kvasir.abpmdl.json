@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Jormundgandr.Kvasir.Domain.Shared": {
+      "path": "src/Jormundgandr.Kvasir.Domain.Shared/Jormundgandr.Kvasir.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Domain": {
+      "path": "src/Jormundgandr.Kvasir.Domain/Jormundgandr.Kvasir.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Application.Contracts": {
+      "path": "src/Jormundgandr.Kvasir.Application.Contracts/Jormundgandr.Kvasir.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Application": {
+      "path": "src/Jormundgandr.Kvasir.Application/Jormundgandr.Kvasir.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.EntityFrameworkCore": {
+      "path": "src/Jormundgandr.Kvasir.EntityFrameworkCore/Jormundgandr.Kvasir.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.MongoDB": {
+      "path": "src/Jormundgandr.Kvasir.MongoDB/Jormundgandr.Kvasir.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.HttpApi": {
+      "path": "src/Jormundgandr.Kvasir.HttpApi/Jormundgandr.Kvasir.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.HttpApi.Client": {
+      "path": "src/Jormundgandr.Kvasir.HttpApi.Client/Jormundgandr.Kvasir.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.TestBase": {
+      "path": "test/Jormundgandr.Kvasir.TestBase/Jormundgandr.Kvasir.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.EntityFrameworkCore.Tests": {
+      "path": "test/Jormundgandr.Kvasir.EntityFrameworkCore.Tests/Jormundgandr.Kvasir.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.MongoDB.Tests": {
+      "path": "test/Jormundgandr.Kvasir.MongoDB.Tests/Jormundgandr.Kvasir.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.Domain.Tests": {
+      "path": "test/Jormundgandr.Kvasir.Domain.Tests/Jormundgandr.Kvasir.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.Application.Tests": {
+      "path": "test/Jormundgandr.Kvasir.Application.Tests/Jormundgandr.Kvasir.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.HttpApi.Host": {
+      "path": "host/Jormundgandr.Kvasir.HttpApi.Host/Jormundgandr.Kvasir.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.Web": {
+      "path": "src/Jormundgandr.Kvasir.Web/Jormundgandr.Kvasir.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Jormundgandr.Kvasir.HttpApi.Client.ConsoleTestApp/Jormundgandr.Kvasir.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.Kvasir.Web.Host": {
+      "path": "host/Jormundgandr.Kvasir.Web.Host/Jormundgandr.Kvasir.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.AuthServer": {
+      "path": "host/Jormundgandr.Kvasir.AuthServer/Jormundgandr.Kvasir.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.Host.Shared": {
+      "path": "host/Jormundgandr.Kvasir.Host.Shared/Jormundgandr.Kvasir.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.Web.Unified": {
+      "path": "host/Jormundgandr.Kvasir.Web.Unified/Jormundgandr.Kvasir.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.Blazor": {
+      "path": "src/Jormundgandr.Kvasir.Blazor/Jormundgandr.Kvasir.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Blazor.Host": {
+      "path": "host/Jormundgandr.Kvasir.Blazor.Host/Jormundgandr.Kvasir.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.Kvasir.Blazor.Server": {
+      "path": "src/Jormundgandr.Kvasir.Blazor.Server/Jormundgandr.Kvasir.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Blazor.WebAssembly": {
+      "path": "src/Jormundgandr.Kvasir.Blazor.WebAssembly/Jormundgandr.Kvasir.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.Kvasir.Blazor.Server.Host": {
+      "path": "host/Jormundgandr.Kvasir.Blazor.Server.Host/Jormundgandr.Kvasir.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

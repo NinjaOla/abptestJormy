@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Jormundgandr.OrganizationManager</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Jormundgandr.OrganizationManager.Application\Jormundgandr.OrganizationManager.Application.csproj" />
+    <ProjectReference Include="..\Jormundgandr.OrganizationManager.Domain.Tests\Jormundgandr.OrganizationManager.Domain.Tests.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+  </ItemGroup>
+
+</Project>

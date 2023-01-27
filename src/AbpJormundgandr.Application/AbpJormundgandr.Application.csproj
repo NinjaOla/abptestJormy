@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>AbpJormundgandr</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpJormundgandr.Domain\AbpJormundgandr.Domain.csproj" />
+    <ProjectReference Include="..\AbpJormundgandr.Application.Contracts\AbpJormundgandr.Application.Contracts.csproj" /><ProjectReference Include="..\..\modules\Jormundgandr.Kvasir\src\Jormundgandr.Kvasir.Application\Jormundgandr.Kvasir.Application.csproj" /><ProjectReference Include="..\..\modules\Jormundgandr.OrganizationManager\src\Jormundgandr.OrganizationManager.Application\Jormundgandr.OrganizationManager.Application.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>

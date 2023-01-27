@@ -1,0 +1,28 @@
+﻿@page "/OrganizationManager/teams"
+@using Volo.Abp.Application.Dtos;
+@inherits AbpCrudPageBase<ITeamAppService, TeamDTO, Guid, PagedAndSortedResultRequestDto, CreateUpdateTeamDTO>
+<Card>
+    <CardHeader>
+        <h2>Teams</h2>
+    </CardHeader>
+    <CardBody>
+        <DataGrid TItem="TeamDTO"
+                  Data="Entities"
+                  ReadData="OnDataGridReadAsync"
+                  TotalItems="TotalCount"
+                  ShowPager="true"
+                  PageSize="PageSize">
+            <DataGridColumns>
+                <DataGridColumn TItem="TeamDTO"
+                                Field="@nameof(TeamDTO.Name)"
+                                Caption="Name">
+                </DataGridColumn>
+                
+                <DataGridColumn TItem="TeamDTO"
+                                Field="@nameof(TeamDTO.Description)"
+                                Caption="Description">
+                </DataGridColumn>
+            </DataGridColumns>
+        </DataGrid>
+    </CardBody>
+</Card>

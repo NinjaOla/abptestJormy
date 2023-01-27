@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Jormundgandr.OrganizationManager": {
+      "path": "Jormundgandr.OrganizationManager.abpmdl.json"
+    }
+  }
+}

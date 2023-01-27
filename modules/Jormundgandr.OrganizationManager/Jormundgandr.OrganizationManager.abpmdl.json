@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Jormundgandr.OrganizationManager.Domain.Shared": {
+      "path": "src/Jormundgandr.OrganizationManager.Domain.Shared/Jormundgandr.OrganizationManager.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Domain": {
+      "path": "src/Jormundgandr.OrganizationManager.Domain/Jormundgandr.OrganizationManager.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Application.Contracts": {
+      "path": "src/Jormundgandr.OrganizationManager.Application.Contracts/Jormundgandr.OrganizationManager.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Application": {
+      "path": "src/Jormundgandr.OrganizationManager.Application/Jormundgandr.OrganizationManager.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.EntityFrameworkCore": {
+      "path": "src/Jormundgandr.OrganizationManager.EntityFrameworkCore/Jormundgandr.OrganizationManager.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.MongoDB": {
+      "path": "src/Jormundgandr.OrganizationManager.MongoDB/Jormundgandr.OrganizationManager.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.HttpApi": {
+      "path": "src/Jormundgandr.OrganizationManager.HttpApi/Jormundgandr.OrganizationManager.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.HttpApi.Client": {
+      "path": "src/Jormundgandr.OrganizationManager.HttpApi.Client/Jormundgandr.OrganizationManager.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.TestBase": {
+      "path": "test/Jormundgandr.OrganizationManager.TestBase/Jormundgandr.OrganizationManager.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.EntityFrameworkCore.Tests": {
+      "path": "test/Jormundgandr.OrganizationManager.EntityFrameworkCore.Tests/Jormundgandr.OrganizationManager.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.MongoDB.Tests": {
+      "path": "test/Jormundgandr.OrganizationManager.MongoDB.Tests/Jormundgandr.OrganizationManager.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.Domain.Tests": {
+      "path": "test/Jormundgandr.OrganizationManager.Domain.Tests/Jormundgandr.OrganizationManager.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.Application.Tests": {
+      "path": "test/Jormundgandr.OrganizationManager.Application.Tests/Jormundgandr.OrganizationManager.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.HttpApi.Host": {
+      "path": "host/Jormundgandr.OrganizationManager.HttpApi.Host/Jormundgandr.OrganizationManager.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.Web": {
+      "path": "src/Jormundgandr.OrganizationManager.Web/Jormundgandr.OrganizationManager.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Jormundgandr.OrganizationManager.HttpApi.Client.ConsoleTestApp/Jormundgandr.OrganizationManager.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Jormundgandr.OrganizationManager.Web.Host": {
+      "path": "host/Jormundgandr.OrganizationManager.Web.Host/Jormundgandr.OrganizationManager.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.AuthServer": {
+      "path": "host/Jormundgandr.OrganizationManager.AuthServer/Jormundgandr.OrganizationManager.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.Host.Shared": {
+      "path": "host/Jormundgandr.OrganizationManager.Host.Shared/Jormundgandr.OrganizationManager.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.Web.Unified": {
+      "path": "host/Jormundgandr.OrganizationManager.Web.Unified/Jormundgandr.OrganizationManager.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.Blazor": {
+      "path": "src/Jormundgandr.OrganizationManager.Blazor/Jormundgandr.OrganizationManager.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Blazor.Host": {
+      "path": "host/Jormundgandr.OrganizationManager.Blazor.Host/Jormundgandr.OrganizationManager.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Jormundgandr.OrganizationManager.Blazor.Server": {
+      "path": "src/Jormundgandr.OrganizationManager.Blazor.Server/Jormundgandr.OrganizationManager.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Blazor.WebAssembly": {
+      "path": "src/Jormundgandr.OrganizationManager.Blazor.WebAssembly/Jormundgandr.OrganizationManager.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Jormundgandr.OrganizationManager.Blazor.Server.Host": {
+      "path": "host/Jormundgandr.OrganizationManager.Blazor.Server.Host/Jormundgandr.OrganizationManager.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

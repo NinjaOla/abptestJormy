@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Jormundgandr.Kvasir</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.0.1" />
+    <ProjectReference Include="..\Jormundgandr.Kvasir.Application.Contracts\Jormundgandr.Kvasir.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Jormundgandr.Kvasir.Domain\Jormundgandr.Kvasir.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

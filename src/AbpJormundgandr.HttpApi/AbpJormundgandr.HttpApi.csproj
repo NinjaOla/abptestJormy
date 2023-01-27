@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>AbpJormundgandr</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AbpJormundgandr.Application.Contracts\AbpJormundgandr.Application.Contracts.csproj" /><ProjectReference Include="..\..\modules\Jormundgandr.Kvasir\src\Jormundgandr.Kvasir.HttpApi\Jormundgandr.Kvasir.HttpApi.csproj" /><ProjectReference Include="..\..\modules\Jormundgandr.OrganizationManager\src\Jormundgandr.OrganizationManager.HttpApi\Jormundgandr.OrganizationManager.HttpApi.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.HttpApi" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>

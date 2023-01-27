@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Jormundgandr.OrganizationManager</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="7.0.1" />
+    <ProjectReference Include="..\Jormundgandr.OrganizationManager.Domain\Jormundgandr.OrganizationManager.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

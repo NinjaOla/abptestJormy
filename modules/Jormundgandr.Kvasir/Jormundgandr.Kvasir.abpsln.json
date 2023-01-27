@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Jormundgandr.Kvasir": {
+      "path": "Jormundgandr.Kvasir.abpmdl.json"
+    }
+  }
+}

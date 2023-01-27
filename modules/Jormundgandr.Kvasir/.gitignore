@@ -251,15 +251,12 @@ paket-files/
 .idea/
 *.sln.iml
 
-# AbpJormundgandr
-src/AbpJormundgandr.Web/Logs/*
-src/AbpJormundgandr.Web.Host/Logs/*
-src/AbpJormundgandr.AuthServer/Logs/*
-src/AbpJormundgandr.HttpApi.Host/Logs/*
-src/AbpJormundgandr.HttpApi.Host/Logs/*
-src/AbpJormundgandr.DbMigrator/Logs/*
-src/AbpJormundgandr.Blazor.Server/Logs/*
-src/AbpJormundgandr.Blazor.Server.Tiered/Logs/*
+# Kvasir
+host/Jormundgandr.Kvasir.AuthServer/Logs/logs.txt
+host/Jormundgandr.Kvasir.HttpApi.Host/Logs/logs.txt
+host/Jormundgandr.Kvasir.Web.Host/Logs/logs.txt
+host/Jormundgandr.Kvasir.Web.Unified/Logs/logs.txt
+host/Jormundgandr.Kvasir.Blazor.Server.Host/Logs/logs.txt
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
